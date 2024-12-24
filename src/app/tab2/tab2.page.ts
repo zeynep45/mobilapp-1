@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,7 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
+  email: string = 'Email';    // Eğer email de varsa, bunu tanımlayın
+  password: string = '*'; // Yeni password alanını ekleyin
   constructor() {}
 
 }
